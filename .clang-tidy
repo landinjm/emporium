@@ -1,0 +1,18 @@
+# Setting file for clang-tidy
+
+Checks: >
+  -*,
+  boost-*,
+  bugprone-*,
+  cert-*,
+  cppcoreguidelines-*,
+  hicpp-*,
+  misc-*,
+  modernize-*,
+  -modernize-use-trailing-return-type,
+  mpi-*,
+  performance-*,
+  readability-*,
+
+
+WarningsAsErrors: '*'
